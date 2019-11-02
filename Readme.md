@@ -18,11 +18,7 @@ than one host to avoide dupplication which the Sublime version did not allow me 
 
 ### Setup
 Please ass a file called `~/.simple_scp_sync_config` which is pretty much a json file of the format:
-# get args i.e. file name to be sunc
-# find config file or crap out
-# find where to sync this file is applicable
-# sync and exit
-
+```
 [
     // ...,
 
@@ -38,7 +34,8 @@ Please ass a file called `~/.simple_scp_sync_config` which is pretty much a json
 
     // ...
 ]
-
+```
+NB: please be mindful of the validity of the JSON as it might not be parseable otherwise and the script will fail
 ### Run it
 
 ```
