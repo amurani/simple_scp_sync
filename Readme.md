@@ -7,6 +7,7 @@ Inspired by the [Sublime Simple Sync](https://github.com/hydralien/SimpleSync)
 package that works in more or less the same way
 
 ### Primary motivation
+
 As mentioned above, I use the [Sublime Simple Sync](https://github.com/hydralien/SimpleSync)
 package a lot when working with Sublime, but I also use vim heavily and in recent times, almost
 exlusively. This makes my dev worflow much more different that I'm accustomed to and I'd like to
@@ -17,7 +18,9 @@ than one host to avoide dupplication which the Sublime version did not allow me 
 
 
 ### Setup
-Please ass a file called `~/.simple_scp_sync_config` which is pretty much a json file of the format:
+
+Please add a file called `~/.simple_scp_sync_config` which is pretty much a json file of the format:
+
 ```
 [
     // ...,
@@ -35,7 +38,9 @@ Please ass a file called `~/.simple_scp_sync_config` which is pretty much a json
     // ...
 ]
 ```
+
 NB: please be mindful of the validity of the JSON as it might not be parseable otherwise and the script will fail
+
 ### Run it
 
 ```
